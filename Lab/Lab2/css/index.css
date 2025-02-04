@@ -1,0 +1,90 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(135deg, #FDEB71, #F8D800);
+    color: #333;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    font-size: 2.5em;
+    color: #A4A400;
+}
+
+header p {
+    font-size: 1.2em;
+    color: #666;
+}
+
+nav {
+    background-color: #A4A400;
+    padding: 10px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #333;
+}
+
+
+.glass {
+    width: 80%;
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 15px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    color: #333;
+}
+
+.glass h2 {
+    font-size: 2em;
+    color: #A4A400;
+}
+
+footer {
+    text-align: center;
+    padding: 15px 10px;
+    background-color: #333;
+    color: #fff;
+    position: relative;
+    border-top: 2px solid #A4A400;
+}
+
+/* Footer Text Styling */
+footer p {
+    font-style: italic;
+    margin: 5px 0;
+    padding: 0;
+}

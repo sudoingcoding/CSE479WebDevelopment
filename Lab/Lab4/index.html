@@ -1,0 +1,39 @@
+<!-- 
+ Lab 4: CSE479
+ Suddip Paul Arnab      2022-1-60-356
+ Jubaer Ahmed           2021-2-60-139
+ Tasmia Islam           2021-2-60-062
+ Abdul Mumeet Pathan    2022-1-60-267
+  -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>N-Squared Puzzle</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>N-Squared Puzzle</h1>
+    <div id="controls">
+        <label for="size">Select size:</label>
+        <div id="size">
+            <input type="radio" id="size3" name="size" value="3">
+            <label for="size3">3</label>
+            <input type="radio" id="size4" name="size" value="4" checked>
+            <label for="size4">4</label>
+            <input type="radio" id="size5" name="size" value="5">
+            <label for="size5">5</label>
+            <input type="radio" id="size6" name="size" value="6">
+            <label for="size6">6</label>
+        </div>
+        <button onclick="initializeBoard()">Choose</button>
+    </div>
+    <div id="board"></div>
+    <h3 id="status"></h3>
+    <script src="puzzle.js"></script>
+</body>
+
+</html>
